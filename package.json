@@ -1,0 +1,17 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A simple test",
+  "main": "simple.js",
+  "scripts": {
+    "test": "mocha ./tests.mjs",
+    "coverage": "nyc --reporter=text npm run test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "nyc": "^17.0.0"
+  }
+}
